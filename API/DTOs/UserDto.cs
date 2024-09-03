@@ -2,7 +2,8 @@ using System;
 
 namespace API.DTOs;
 
-public class UserSto
+public class UserDto
 {
-
+    public required string Username { get; set; }
+    public required string Token { get; set; }
 }
